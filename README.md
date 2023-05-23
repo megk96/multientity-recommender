@@ -1,5 +1,5 @@
 # Multientity Recommender
-A recommender for 1000 most popular movies, books, and TV shows using GPT-Embeddings of their 30 most important keywords. 
+A recommender for 1000 most popular movies, books, and TV shows using GPT-Embeddings of their 30 most important keywords. This repository is meant to serve as a proof-of-concept. 
 
 ## Executive Summary
 The method used here is to encode movies, books, TV shows as GPT Embeddings using the GPT Embeddings API to create a Word2Vec style recommender. Then we would convert the query into a GPT Embedding as well and find the closest movies in the new recommender space. This method is very similar to our current methodology of performing recommendations using Word2Vec. 
